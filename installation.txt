@@ -1,0 +1,46 @@
+formants_mak (Real-Time Formants and Bandwidths Graphics for Visual Biofeedback) - Installation
+===============================================================================================
+
+Requirements:
+- Python 3.11 (3.10+ should work) with Tk
+- A microphone
+
+Option A) Conda (recommended)
+-----------------------------
+    conda env create -f environment.yml
+    conda activate formants_mak
+    python formants_mak.py
+
+On Linux/macOS you can also run ./formants_mak.sh (activates the env and
+starts the app).
+
+Option B) pip
+-------------
+    python -m pip install -r requirements.txt
+    python formants_mak.py
+
+Note: the PyPI package name is `praat-parselmouth`, imported as
+`parselmouth` (do NOT `pip install parselmouth`, that is unrelated).
+Pitch (F0) detection is the built-in YinPitchDetector (numpy only) -- no
+aubio or other pitch library is needed.
+
+Self-test (checks that every dependency loads, exits 0 on success):
+    python formants_mak.py --selftest
+The result is written to selftest_result.txt next to the Python
+executable, or to the path in the FORMANTS_MAK_SELFTEST_OUT environment
+variable.
+
+Language files: Turkish and English are embedded in formants_mak.py. Every
+language .json next to formants_mak.py is listed under Language as
+"<name> (json)". A new language is added with Target Sounds -> "New
+Language": "Create Blank Form" writes new_language.xlsx next to the app,
+you fill it in Excel/LibreOffice, "Read Form" creates <name>.json and
+selects it. A turkish.json / english.json next to the app takes priority
+over the embedded values; deleting it restores them. "External JSON..."
+loads a file from elsewhere.
+
+Platform notes:
+- macOS: grant microphone permission to the Terminal/IDE running Python
+  (System Settings -> Privacy & Security -> Microphone).
+- Linux: PortAudio is needed by sounddevice (e.g. sudo apt install
+  libportaudio2).

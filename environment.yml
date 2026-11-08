@@ -1,0 +1,14 @@
+name: formants_mak
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - matplotlib-base
+  - pillow
+  - tk
+  - pip
+  - pip:
+      - praat-parselmouth
+      - sounddevice
+      - openpyxl               # New Language form (new_language.xlsx)

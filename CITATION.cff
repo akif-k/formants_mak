@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "formants_mak: Real-Time Formants and Bandwidths for Visual Biofeedback"
+abstract: >-
+  A Python/Tkinter application that captures a single microphone input
+  and tracks the first five vocal-tract formants (F1-F5) and their
+  bandwidths in real time, plotted as a scrolling graph for visual
+  biofeedback in articulation therapy, vowel-quality training and
+  voice/speech analysis. Formants are estimated with Praat's Burg LPC
+  method (via parselmouth), gated by a built-in YIN F0 estimator, and
+  re-matched against language-specific expected formant targets
+  (built-in Turkish and English presets, user-defined languages via
+  JSON/Excel form) within a configurable fidelity band. formants_mak is
+  the open-source module of the Sonus et Vox voice biofeedback suite.
+authors:
+  - family-names: Kılıç
+    given-names: "Mehmet Akif"
+    email: makilic@yahoo.com
+    orcid: "https://orcid.org/0000-0003-4482-3490"
+license: GPL-3.0-only
+repository-code: "https://github.com/akif-k/formants_mak"
+url: "https://sonusetvox.lemonsqueezy.com/"
+version: "1.0.0"
+date-released: "2026-11-04"
+keywords:
+  - formants
+  - formant tracking
+  - bandwidths
+  - LPC
+  - Burg method
+  - visual biofeedback
+  - voice therapy
+  - speech therapy
+  - articulation
+  - vowels
+  - phonetics
+  - acoustic analysis
+  - Praat
+  - parselmouth
+  - real-time
+references:
+  - type: article
+    authors:
+      - family-names: Kılıç
+        given-names: "Mehmet Akif"
+    title: "From acoustic resonance to flow-induced distributed tissue vibration: An aero-elasto-dynamic theoretical framework for voice and speech production"
+    journal: "Praxis of Otorhinolaryngology"
+    volume: 14
+    issue: 3
+    start: 186
+    end: 202
+    year: 2026
+    doi: 10.5606/kbbu.2026.25

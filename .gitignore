@@ -1,0 +1,22 @@
+# Runtime-generated settings and user language files
+*.json
+!.zenodo.json
+new_language.xlsx
+formants_mak_debug.log
+selftest_result.txt
+
+# Exported results
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar.gz

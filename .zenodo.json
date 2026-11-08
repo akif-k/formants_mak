@@ -1,0 +1,27 @@
+{
+  "title": "formants_mak: Real-Time Formants and Bandwidths for Visual Biofeedback",
+  "upload_type": "software",
+  "description": "<p>formants_mak is a Python/Tkinter application that captures a single microphone input and tracks the first five vocal-tract formants (F1–F5) and their bandwidths in real time, plotted as a scrolling graph for visual biofeedback in articulation therapy, vowel-quality training and voice/speech analysis. Formants are estimated with Praat's Burg LPC method (via parselmouth), gated by a built-in YIN F0 estimator, and re-matched against language-specific expected formant targets (built-in Turkish and English presets; user-defined languages via JSON or an Excel form) within a configurable fidelity band.</p><p>formants_mak is the open-source module of the <strong>Sonus et Vox</strong> voice biofeedback suite, based on the Distributed Tissue Vibration (DTV) framework for voice production. The other modules (rtime_mak, resonance_mak, harmonicity_mak) are standalone Rust applications available at <a href=\"https://sonusetvox.lemonsqueezy.com/\">sonusetvox.lemonsqueezy.com</a>.</p>",
+  "creators": [
+    {
+      "name": "Kılıç, Mehmet Akif",
+      "orcid": "0000-0003-4482-3490"
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "formants", "formant tracking", "bandwidths", "LPC", "Burg method",
+    "visual biofeedback", "voice therapy", "speech therapy", "articulation",
+    "vowels", "phonetics", "acoustic analysis", "Praat", "parselmouth", "real-time"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5606/kbbu.2026.25",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ]
+}
