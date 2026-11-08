@@ -5,7 +5,8 @@
 
 **Keywords:** formants, formant tracking, bandwidths, LPC, Burg method,
 visual biofeedback, voice therapy, speech therapy, articulation, vowels,
-phonetics, acoustic analysis, Praat, parselmouth, real-time
+phonetics, acoustic analysis, speech analysis, speech-language pathology,
+signal processing, language education, Turkish, Praat, parselmouth, real-time
 
 > **Part of the Sonus et Vox suite.** formants_mak is one of four
 > real-time voice biofeedback modules built on the author's Distributed
