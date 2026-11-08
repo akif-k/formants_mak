@@ -12,7 +12,10 @@ abstract: >-
   re-matched against language-specific expected formant targets
   (built-in Turkish and English presets, user-defined languages via
   JSON/Excel form) within a configurable fidelity band. formants_mak is
-  the open-source module of the Sonus et Vox voice biofeedback suite.
+  the free, open-source academic module of the Sonus et Vox voice
+  biofeedback suite, intended for research and teaching; the other
+  modules (rtime_mak, resonance_mak, harmonicity_mak) are commercial
+  applications available at https://sonusetvox.lemonsqueezy.com/
 authors:
   - family-names: Kılıç
     given-names: "Mehmet Akif"
@@ -22,7 +25,7 @@ license: GPL-3.0-only
 repository-code: "https://github.com/akif-k/formants_mak"
 url: "https://sonusetvox.lemonsqueezy.com/"
 version: "1.0.0"
-date-released: "2026-11-04"
+date-released: "2026-11-08"
 keywords:
   - formants
   - formant tracking

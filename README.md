@@ -10,8 +10,9 @@ phonetics, acoustic analysis, Praat, parselmouth, real-time
 > **Part of the Sonus et Vox suite.** formants_mak is one of four
 > real-time voice biofeedback modules built on the author's Distributed
 > Tissue Vibration (DTV) framework for voice production (Kılıç, 2026; see
-> References). formants_mak is released here as **free, open-source
-> Python code** (GPL-3.0). The other three modules are commercial
+> References). formants_mak is released here as a **free, open-source
+> academic application** for research and teaching (GPL-3.0); it is not
+> sold and has no license key or paid edition. The other three modules are commercial
 > applications available from the
 > [Sonus et Vox store on Lemon Squeezy](https://sonusetvox.lemonsqueezy.com/):
 >
