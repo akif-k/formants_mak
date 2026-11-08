@@ -1,6 +1,6 @@
 # formants_mak — Real-Time Formants and Bandwidths for Visual Biofeedback
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24051498.svg)](https://doi.org/10.5281/zenodo.24051498)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
 **Keywords:** formants, formant tracking, bandwidths, LPC, Burg method,

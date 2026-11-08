@@ -24,6 +24,7 @@ authors:
 license: GPL-3.0-only
 repository-code: "https://github.com/akif-k/formants_mak"
 url: "https://sonusetvox.lemonsqueezy.com/"
+doi: 10.5281/zenodo.24051498
 version: "1.0.0"
 date-released: "2026-11-08"
 keywords:
