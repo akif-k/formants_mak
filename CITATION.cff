@@ -56,3 +56,60 @@ references:
     end: 202
     year: 2026
     doi: 10.5606/kbbu.2026.25
+  - type: software
+    authors:
+      - family-names: Boersma
+        given-names: Paul
+      - family-names: Weenink
+        given-names: David
+    title: "Praat: Doing phonetics by computer"
+    version: "6.1.38"
+    year: 2021
+    url: "https://www.praat.org/"
+  - type: article
+    authors:
+      - family-names: Jadoul
+        given-names: Yannick
+      - family-names: Thompson
+        given-names: Bill
+      - family-names: de Boer
+        given-names: Bart
+    title: "Introducing Parselmouth: A Python interface to Praat"
+    journal: "Journal of Phonetics"
+    volume: 71
+    start: 1
+    end: 15
+    year: 2018
+    doi: 10.1016/j.wocn.2018.07.001
+  - type: article
+    authors:
+      - family-names: de Cheveigné
+        given-names: Alain
+      - family-names: Kawahara
+        given-names: Hideki
+    title: "YIN, a fundamental frequency estimator for speech and music"
+    journal: "Journal of the Acoustical Society of America"
+    volume: 111
+    issue: 4
+    start: 1917
+    end: 1930
+    year: 2002
+    doi: 10.1121/1.1458024
+  - type: article
+    authors:
+      - family-names: Hillenbrand
+        given-names: James
+      - family-names: Getty
+        given-names: Laura A.
+      - family-names: Clark
+        given-names: Michael J.
+      - family-names: Wheeler
+        given-names: Kimberlee
+    title: "Acoustic characteristics of American English vowels"
+    journal: "Journal of the Acoustical Society of America"
+    volume: 97
+    issue: 5
+    start: 3099
+    end: 3111
+    year: 1995
+    doi: 10.1121/1.411872

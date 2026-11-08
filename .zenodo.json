@@ -12,9 +12,21 @@
   "access_right": "open",
   "language": "eng",
   "keywords": [
-    "formants", "formant tracking", "bandwidths", "LPC", "Burg method",
-    "visual biofeedback", "voice therapy", "speech therapy", "articulation",
-    "vowels", "phonetics", "acoustic analysis", "Praat", "parselmouth", "real-time"
+    "formants",
+    "formant tracking",
+    "bandwidths",
+    "LPC",
+    "Burg method",
+    "visual biofeedback",
+    "voice therapy",
+    "speech therapy",
+    "articulation",
+    "vowels",
+    "phonetics",
+    "acoustic analysis",
+    "Praat",
+    "parselmouth",
+    "real-time"
   ],
   "related_identifiers": [
     {
@@ -22,6 +34,37 @@
       "relation": "isSupplementTo",
       "scheme": "doi",
       "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1016/j.wocn.2018.07.001",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1121/1.1458024",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1121/1.411872",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://www.praat.org/",
+      "relation": "requires",
+      "scheme": "url",
+      "resource_type": "software"
     }
+  ],
+  "references": [
+    "Boersma, P., & Weenink, D. (2021). Praat: Doing phonetics by computer (Version 6.1.38) [Computer program]. https://www.praat.org/",
+    "de Cheveigné, A., & Kawahara, H. (2002). YIN, a fundamental frequency estimator for speech and music. Journal of the Acoustical Society of America, 111(4), 1917–1930. https://doi.org/10.1121/1.1458024",
+    "Hillenbrand, J., Getty, L. A., Clark, M. J., & Wheeler, K. (1995). Acoustic characteristics of American English vowels. Journal of the Acoustical Society of America, 97(5), 3099–3111. https://doi.org/10.1121/1.411872",
+    "Jadoul, Y., Thompson, B., & de Boer, B. (2018). Introducing Parselmouth: A Python interface to Praat. Journal of Phonetics, 71, 1–15. https://doi.org/10.1016/j.wocn.2018.07.001",
+    "Kılıç, M. A. (2026). From acoustic resonance to flow-induced distributed tissue vibration: An aero-elasto-dynamic theoretical framework for voice and speech production. Praxis of Otorhinolaryngology, 14(3), 186–202. https://doi.org/10.5606/kbbu.2026.25"
   ]
 }

@@ -242,9 +242,19 @@ For questions or issues about the app, contact **makilic@yahoo.com**.
 
 ## References
 
+- Boersma, P., & Weenink, D. (2021). *Praat: Doing phonetics by computer*
+  (Version 6.1.38) [Computer program]. https://www.praat.org/ (the Praat
+  version bundled with parselmouth 0.4.7; used for Burg LPC formant analysis)
+- de Cheveigné, A., & Kawahara, H. (2002). YIN, a fundamental frequency
+  estimator for speech and music. *Journal of the Acoustical Society of
+  America*, 111(4), 1917–1930. https://doi.org/10.1121/1.1458024 (F0 gate)
 - Hillenbrand, J., Getty, L. A., Clark, M. J., & Wheeler, K. (1995). Acoustic
   characteristics of American English vowels. *Journal of the Acoustical
-  Society of America*, 97(5), 3099–3111. (source of the English preset's F1–F3)
+  Society of America*, 97(5), 3099–3111. https://doi.org/10.1121/1.411872
+  (source of the English preset's F1–F3)
+- Jadoul, Y., Thompson, B., & de Boer, B. (2018). Introducing Parselmouth: A
+  Python interface to Praat. *Journal of Phonetics*, 71, 1–15.
+  https://doi.org/10.1016/j.wocn.2018.07.001
 - Kılıç, M. A. (2026). From acoustic resonance to flow-induced distributed
   tissue vibration: An aero-elasto-dynamic theoretical framework for voice
   and speech production. *Praxis of Otorhinolaryngology*, 14(3), 186–202.
